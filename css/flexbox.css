@@ -10,10 +10,19 @@
     display: none;
 }
 
+.rodape_container {
+    display: flex;
+    flex-flow: column wraps;
+}
+
 @media (min-width: 834px) {
 
     .cabecalho__pesquisar__item {
         display: block;
+    }
+
+    .rodape_container {
+        justify-content: space-between;
     }
 
 }
